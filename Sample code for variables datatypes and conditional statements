@@ -1,0 +1,64 @@
+// Online C++ compiler to run C++ program online
+#include <iostream>
+
+using namespace std;
+int main() {
+ /*variables and data types*/
+int a=10;
+char b='f';
+bool v="true";
+float g=4.5;
+
+cout<<a<<endl;
+cout<<b<<endl;
+cout<<v<<endl;
+cout<<g<<endl;
+cout<<z<<endl;
+int size=sizeof(v);
+cout<<"size of v is "<<endl<< size<<endl;
+double z=2.345;
+int l='Z';
+int size=sizeof(z);
+cout<<"size of z is"<<endl<<size<<endl;
+cout<<l<<endl;
+int neg=-4;
+cout<<neg<<endl;
+unsigned reg=123456789;
+cout<<reg<<endl;
+/* conditional statements*/
+int er=2,es=5,ev;
+ev=er/es;
+cout<<ev<<endl;
+
+if(ev==0)
+{
+    cout<<"yes";
+}
+else{
+    cout<<"no";
+}
+int n;
+cin>>n;
+cout<<endl;
+cout<<n<<endl;  
+/* if elseif else statements*/
+ int ah='a',bh='b',ch='A';
+ cout<<ah<<endl<<""<<bh<<endl<<""<<ch;
+ cout<<endl;
+ cout<<endl;
+if(ah<=100)
+{
+    cout<<"it is right"<<endl;
+    
+}
+else if(ch<=100)
+{
+    cout<<"it is also right"; 
+}
+else {
+    cout<<"it is wrong";
+    
+}
+
+    return 0;
+}
